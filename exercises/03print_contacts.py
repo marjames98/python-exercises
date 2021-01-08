@@ -21,4 +21,8 @@ contacts = {
   'Daniel': '777-777-7777'
 }
 
-print_contacts(contacts, number)
+def print_contacts(contacts):
+  for person in contacts:
+    print(f"{person} has a phone number of {contacts[person]}")
+
+print_contacts(contacts)    

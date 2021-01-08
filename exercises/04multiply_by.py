@@ -11,5 +11,11 @@
 #
 # > [5, 10, 15]
 
-multiply_by([2, 1, 9], 7)
-return multiply_by(7)
+def multiply_by(numbers_list, multiple):
+    result = []
+    for each_num in numbers_list:
+        result.append(each_num * multiple)
+
+    return result        
+
+print(multiply_by([2, 1, 9, 7], 10))

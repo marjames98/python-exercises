@@ -15,5 +15,8 @@
 # > Hello there
 
 
+def p_times(statement, num):
+    statement = statement + '\n'
+    print(statement * num)
+
 p_times('How are you?', 5)
-print p_times

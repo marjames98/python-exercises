@@ -10,3 +10,6 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+
+multiply_by([2, 1, 9], 7)
+return multiply_by(7)

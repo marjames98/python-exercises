@@ -13,3 +13,7 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+
+p_times('How are you?', 5)
+print p_times
